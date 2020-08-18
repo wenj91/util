@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"go.gotoSymbol.includeGoroot": true,
+		"go.gotoSymbol.includeImports": true,
+		"go.inferGopath": true,
+		"go.addTags": {
+			"tags": "json",
+			"options": "json=omitempty",
+			"promptForTags": false,
+			"transform": "snakecase"
+		},
+		"go.autocompleteUnimportedPackages": true,
+		"go.buildOnSave": "workspace",
+		"go.formatTool": "goreturns",
+		"go.languageServerExperimentalFeatures": {
+			"format": true,
+			"autoComplete": true,
+			"rename": true,
+			"goToDefinition": true,
+			"hover": true,
+			"signatureHelp": true,
+			"goToTypeDefinition": true,
+			"goToImplementation": true,
+			"documentSymbols": true,
+			"workspaceSymbols": true,
+			"findReferences": true,
+			"diagnostics": false
+		}
+	}
+}
